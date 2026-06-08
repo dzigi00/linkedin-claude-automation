@@ -5,7 +5,7 @@ Full LinkedIn growth automation using Claude Code and a custom LinkedIn MCP serv
 ## What it does
 
 Every day at 2pm automatically:
-- Checks your LinkedIn inbox and replies to messages in In English (Serbian also supported)
+- Checks your LinkedIn inbox and replies to messages in In English (Serbian also supported) with high-quality, human-feeling responses
 - Relevant, high-quality and human-feeling posts
 - Sends 7 to 8 personalized connection requests
 - Tracks your connection count growth daily
