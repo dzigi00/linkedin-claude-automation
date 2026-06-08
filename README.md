@@ -80,18 +80,18 @@ Edit `run_linkedin.bat` to replace the path with your actual username.
 - Program: `C:\Users\<you>\run_linkedin.bat`
 - Start in: `C:\Users\<you>`
 
-### 6. Customize for your profile
+### 7. Customize for your profile
 
-Before running the automation, open linkedin_daily.md and update these sections to match your own profile:
+Before running the automation, open `linkedin_daily.md` and update these sections to match your own profile:
 
-Your story - replace the mechanic to funnel builder background with your own journey
-Content pillars - replace the listed topics with your own niche and expertise
-Target audience - update the countries, job titles, and industries you want to connect with
-Brands and clients - replace AICom, EcomDegree, Publishing.com with your own work history
-Location exclusions - update or remove the North Macedonia exclusion based on your situation
-Voice and tone - the casual, direct style works for most people but adjust if needed
+- **Your story** - replace the mechanic to funnel builder background with your own journey
+- **Content pillars** - replace the listed topics with your own niche and expertise
+- **Target audience** - update the countries, job titles, and industries you want to connect with
+- **Brands and clients** - replace AICom, EcomDegree, Publishing.com with your own work history
+- **Location exclusions** - update or remove the North Macedonia exclusion based on your situation
+- **Voice and tone** - the casual, direct style works for most people but adjust if needed
 
-The linkedin_daily.md file is the brain of the automation. Everything Claude does daily is driven by the instructions in that file. Spend 10 minutes personalizing it before your first run.
+The `linkedin_daily.md` file is the brain of the automation. Everything Claude does daily is driven by the instructions in that file. Spend 10 minutes personalizing it before your first run.
 
 ## Files
 
