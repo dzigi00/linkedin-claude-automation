@@ -93,6 +93,18 @@ Before running the automation, open `linkedin_daily.md` and update these section
 
 The `linkedin_daily.md` file is the brain of the automation. Everything Claude does daily is driven by the instructions in that file. Spend 10 minutes personalizing it before your first run.
 
+### 8. Fix: Auto-trust the working directory
+
+By default Claude Code asks "Do you trust this folder?" every first run. To skip this permanently, run this once in PowerShell:
+
+```powershell
+$json = Get-Content "C:\Users\<you>\.claude.json" -Raw | ConvertFrom-Json
+$json.projects."C:\Users\<you>".hasTrustDialogAccepted = $true
+$json | ConvertTo-Json -Depth 100 | Set-Content "C:\Users\<you>\.claude.json" -Encoding utf8
+```
+
+Replace `<you>` with your actual Windows username.
+
 ## Files
 
 - `linkedin_mcp_server/tools/posting.py` - custom create_post and comment_on_post tools
